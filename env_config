@@ -21,7 +21,7 @@ if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
 
-# Add Ja
+# Add Java
 JAVA_HOME=/usr/local/Java/jdk1.8.0_25
 PATH=$PATH:$HOME/bin:$JAVA_HOME/bin
 export JAVA_HOME
